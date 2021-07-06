@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ナブカツ用のウェブサイトです。基本的なウェブのフロントエンドの書き方、JavaScriptの書き方を学びます。">
+    <meta name="Keywords" content="ナブカツ,横須賀,ポートフォリオ,ウェブサイト,プログラミング,フロントエンド,学習,イトナブ" />
+    <title>ナブカツLab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+
+ <body>
+    <header id="site-header">
+        <h1 id="site-logo"><a href="">LOGO</a></h1>
+        <nav>
+            <ul id="nav-menu">
+                <li class="nav-menu-items"><a href="#profile">Profile</a></li>
+                <li class="nav-menu-items"><a href="#works">Works</a></li>
+                <li class="nav-menu-items"><a href="#access">Access</a></li>
+                <li class="nav-menu-items"><a href="#promotion">Promotion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/IMG_2578.jpeg"></div>
+                <div class="swiper-slide"><img src="img/IMG_1318.jpeg"></div>
+                <div class="swiper-slide"><img src="img/IMG_7129.JPG"></div>
+                <div class="swiper-slide"><img src="img/IMG_9458.jpeg"></div>
+        </div>
+        <div class="top-title">Let,s enjoy Yokosuka!</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <div class="description-text">
+        <p>ナブカツ用のポートフォリオサイトです。</p>
+        <p>基本的なウェブフロントエンドの学習をします。</p>
+    </div>
+
+    <hr class="rule" id="profile">
+       <h2 class="sub-title">〜 Profile 〜</h2>
+    
+    <div class="profile">
+        <div id="profile-img">
+            <img src="img/IMG_2945.JPG" alt="profile-photo">
+        </div>
+        <div id="profile-text">
+            <p>アラシ（本名：千葉嵐士）/ 2002年生まれ / 天秤座 / O型</p>
+            <p>石巻出身 / 高校を卒業後、東北工業大学に入学。</p>
+            <p>中学生の時に遊びすぎて、高校受験に落ちる。ストレスで血を吐いたり、熱が出たりしたが何とか地元の高校に二次試験で合格する。</p>
+            <p>友達がやんちゃな奴しかいなかったが、自分が落ちた高校の奴らを見返すため勉強する。</p>
+            <p>親の負担を減らすため資格を取ったり、評定を５にしたりで国立大学の受験資格得て受験する。</p>
+            <p>コロナの影響で前年よりも倍率が2倍に、、その結果不合格。すべり止めで受けてた東北工業大学に入学。</p>
+            <p>好きなもの：バレー / バスケ / マンガ / アニメ / ラーメン / スマブラ</p>
+            <p>苦手なもの:なまこ</p>
+        </div>
+    </div>
+
+    <hr class="rule" id="works">
+        <h2 class="sub-title">〜 Works 〜</h2>
+        <div class="works">
+            <div class="work">
+                <h3 class="work-title">Photo montage</h3>
+                <img class="work-img" src="img/IMG_2789.jpeg">
+                <p>
+                    モバイルゲームアプリなどの背景（建物）やクライアントサイトの挿絵などの制作を行なっています。<br>また、キャラクターデザインやイベントのフライヤー制作なども行いました。
+                </p>
+            </div>
+            <div class="work">
+                <h3 class="work-title">Programming</h3>
+                <img class="work-img" src="img/IMG_2799.jpeg">
+                <p>
+                    CoronaSDKを使って2D系のゲーム制作、Unityを使って3D系のゲーム制作を行なっています。<br>また、cssフレームワークを使用してのWebフロントエンド開発も行なっています。
+                </p>
+            </div>
+            <div class="work">
+                <h3 class="work-title">Cuisine</h3>
+                <img class="work-img" src="img/IMG_2704.jpeg">
+                <p>
+                    主に中学生から大学生を中心にプログラミングの出張授業などを行なっています。<br>教える内容は、CoronSDKやWebフロントエンド開発がメインです。
+                </p>
+            </div>
+        </div>
+        
+        <div id="book-img"><img src="img/IMG_2234.jpeg"></div>
+
+        <hr class="rule" id="access">
+        <h2 class="sub-title">〜 Access 〜</h2>
+        <div class="access">
+            <div id="access-text">
+                <p id="place-name">横須賀市</p>
+                <p>〒000-1111</p>
+                <p>神奈川県横須賀市 0-0</p>
+                <br>
+                <p>Tel：<a href="tel:000-1234-5678">000-1234-5678</a></p>
+                <p>Mail：<a href="mail:info@yokosuka.jp">info@yokosuka.jp</a></p>
+                <p>Web：<a href="https://www.city.yokosuka.kanagawa.jp/index.html">www.city.yokosuka.kanagawa.jp</a></p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104250.47119961487!2d139.59072814737814!3d35.26055387055114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60183f970a869e57%3A0x5220e231a4d9673f!2z56We5aWI5bed55yM5qiq6aCI6LOA5biC!5e0!3m2!1sja!2sjp!4v1561374385387!5m2!1sja!2sjp"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+        </div> 
+
+        <hr class="rule" id="promotion">
+        <h2 class="sub-title">〜 Promotion 〜</h2>
+        <div class="promotion">
+            <iframe id="pr-youtube" src="https://www.youtube.com/embed/ruo7qlHLTok" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+        </div> 
+
+        <footer id="site-footer">
+            <p id="copyright"><small>&copy;2019 Itnav</small></p>
+        </footer>
+ </body>
+
+</html>
